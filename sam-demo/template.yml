@@ -1,3 +1,4 @@
+---
 AWSTemplateFormatVersion : '2010-09-09'
 Transform: AWS::Serverless-2016-10-31
 Description: A hello world application.
@@ -5,6 +6,6 @@ Resources:
   HelloWorldFunction:
     Type: AWS::Serverless::Function
     Properties:
-      Handler: index.handler
+      Handler: com.ernesttech.samdemo.HelloWorldHandler
       Runtime: java8
-      CodeUri: /vagrant/sam-demo/sam-demo-0.0.1-SNAPSHOT.jar
+      CodeUri: ./target/sam-demo-0.0.1-SNAPSHOT.jar
