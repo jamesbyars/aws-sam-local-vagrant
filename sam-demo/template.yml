@@ -8,4 +8,4 @@ Resources:
     Properties:
       Handler: com.ernesttech.samdemo.HelloWorldHandler
       Runtime: java8
-      CodeUri: ./target/sam-demo-0.0.1-SNAPSHOT.jar
+      CodeUri: ./target/aws-sam-local-vagrant-demo-0.0.1-SNAPSHOT.jar
