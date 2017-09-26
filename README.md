@@ -24,7 +24,16 @@ cd /vagrant
 
 ### Invocation
 
-Make sure you're in the /vagrant directory
+Make sure you're in the /vagrant directory 
+
+AND
+
+package the app
+
+```java
+mvn package
+```
+
 
 Invoke HelloWorldFunction with data (see template.yml)
 
