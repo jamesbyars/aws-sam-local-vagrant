@@ -9,6 +9,6 @@ NPM_CONFIG_PREFIX=~/.npm-global
 npm install -g jshint
 
 # install
-npm install -g aws-sam-local
+npm install -g aws-sam-local@0.2.2
 
 echo "export PATH=~/.npm-global/bin:$PATH" >> ~/.profile
