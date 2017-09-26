@@ -24,6 +24,8 @@ cd /vagrant
 
 ### Invocation
 
+Make sure you're in the /vagrant directory
+
 Invoke HelloWorldFunction with data (see template.yml)
 
 ```bash
